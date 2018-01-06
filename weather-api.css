@@ -1,0 +1,23 @@
+.section {
+    padding: 4rem 0 7rem;
+    text-align: center;
+}
+
+.get-help {
+    border-bottom: 1px solid #ddd;
+}
+
+.weather {
+    background-image: url('../images/cold.jpeg');
+    background-size: cover;
+    height: 250px;
+    color: #fff;
+    padding-bottom: 5rem;
+
+  }
+
+  p {
+    font-weight: 700;
+  }
+
+ 

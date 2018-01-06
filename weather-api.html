@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Basic Page Needs
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <meta charset="utf-8">
+        <title>Weather API</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Mobile Specific Metas
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- FONT
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600,700" rel="stylesheet" type="text/css">
+
+        <!-- CSS
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="weather-api.css">
+
+        <!-- Favicon
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+
+    </head>
+    <body>
+
+        <!-- Primary Page Layout
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div class="weather"></div>
+
+        <div class="section get-help">
+            <div class="container">
+                <h2>Free Code Camp Weather App</h2>
+                <p id="location">City, USA</p>
+                <p><span>Latitude: </span><span id="lat"></span>&nbsp;&nbsp;<span> Longitude: </span><span id="lon"></span></p>
+                <p><span>Conditions: </span><span id="weather"></span></p>
+                <p><span>Temperature: </span> <span id="temp">Temp</span>&nbsp;<span id="unit">&#8451;</span></p>
+                <button class="button button-primary">Show Fahrenheit</button>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="weather-api.js"></script>
+        <!-- End Document
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    </body>
+</html>
+
+<!--Objective: Build a CodePen.io app that is functionally similar to this: http://codepen.io/FreeCodeCamp/full/bELRjV.
+Rule #1: Don't look at the example project's code. Figure it out for yourself.
+Rule #2: Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+User Story: I can see the weather in my current location.
+User Story: I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
+User Story: I can push a button to toggle between Fahrenheit and Celsius.
+Note: Many internet browsers now require an HTTP Secure (https://) connection to obtain a user's locale via HTML5 Geolocation. For this reason, we recommend using HTML5 Geolocation to get user location and then use the freeCodeCamp Weather API https://fcc-weather-api.glitch.me which uses an HTTP Secure connection for the weather. Also, be sure to connect to CodePen.io via https://.
+Remember to use Read-Search-Ask if you get stuck.
+When you are finished, click the "I've completed this challenge" button and include a link to your CodePen.
+You can get feedback on your project by sharing it with your friends on Facebook.-->
