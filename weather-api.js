@@ -77,7 +77,8 @@ $(document).ready(function() {
             $('#temp').text(fTemp.toFixed(1));
             $('#unit').html('&#8457');
             $('button').text('Show Celcius');
-        } else {
+        } 
+        else {
             $('#temp').text(cTemp.toFixed(1));
             $('#unit').html('&#8451');
             $('button').text('Show Fahrenheit');
